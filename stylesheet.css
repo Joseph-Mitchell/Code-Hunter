@@ -1,0 +1,111 @@
+/*Header*/
+img.header {
+    width: 200px;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+
+.main {
+    padding-left: 19%;
+    padding-right: 19%;
+    min-width: 550px;
+}
+h1 {
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Hyperlinks*/
+a:link {
+    color:#B80114;
+    text-decoration: none;
+}
+a:hover {
+    color:#B80114;
+    text-decoration: underline;
+}
+a:visited {
+    color:#B80114;
+    text-decoration: underline;
+}
+a:active {
+    color:#000000;
+    text-decoration: underline;
+}
+
+/*Navigation bar*/
+ul.nav {
+    list-style-type: none;
+    margin: -8;
+    padding: 0;
+    overflow: auto;
+    background-color: #577285;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    height: 70px;
+}           
+li.nav {
+    float: left;
+}
+li a.nav {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 11px;
+}
+li a:hover.nav {
+    text-decoration: underline;
+}
+li a.navselected {
+    display: block;
+    color: white;
+    background-color: #7B919F;
+    padding: 5px 11px;
+    margin-top: 20px;
+}
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #D7E0E6;
+}
+
+/*Forms*/
+input[type=button], input[type=submit] {
+    padding: 10px 18px;
+    border-radius: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #A22916;
+    color: white;
+    cursor: pointer;
+}
+input[type=button], input[type=submit]:disabled {
+    padding: 10px 18px;
+    border-radius: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #a6a6a6;
+    color: white;
+    cursor: default;
+}
+input[type=text]:disabled, input[type=email]:disabled, input[type=password]:disabled {
+    background-color: #f9f9f9;
+    border: 1px solid #D7E0E6;
+}
