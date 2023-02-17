@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $connection = mysqli_connect("localhost", "root", "root") or die ("Connection Failed");
+    $connection = mysqli_connect("localhost", "root", "") or die ("Connection Failed");
     mysqli_select_db($connection, "codehunters") or die (mysqli_error($connection));
 
     $addtodatabase = true;
